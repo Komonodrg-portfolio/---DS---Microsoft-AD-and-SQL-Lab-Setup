@@ -3,7 +3,7 @@
 ---
 ---
 
-# 🏠 Microsoft Active Directory & SQL Lab Setup
+# 🪟 Microsoft Active Directory & SQL Lab Setup
 
 This project demonstrates how to build a scaled enterprise-like systems & database administration lab built using opensource resource offerings from Microsoft. It's designed to emulate a small business in order to practice and gain incite on how these systems operate both independently & in conjunction with one another - bridging the knowledge base gap.  It contains Windows Host(s), Windows Server, Microsoft SQL Server, and the administration of all components.  With a labtop of 16GB  (recommended) of ram, this lab setup should allow for training from anywhere in the world.  8GB of ram should allow most components to run, if not concurrently, but still offer the ability to learn successfully.
 
