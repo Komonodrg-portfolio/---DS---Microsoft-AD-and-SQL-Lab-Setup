@@ -24,12 +24,12 @@ To illustrate a cost effective platform to allow for the practice and self study
 
 ## 🧰 Tools & Technologies
 
-| Tool       | Purpose - VM Requirements                             |
-|------------|--------------------------------------|
-| VMware Workstation / Player    | Network Emulation Platform           |
-| Windows 10/11  | Router & Switch Emulation         |
-| Windows Server 2022    | Open-source Firewall/Router          |
-| SQL Server 2025  | Host Simulation                      |
+| Tool       | Purpose           |  VM Requirements                     |
+|------------|--------------------------------------|-------------------|
+| VMware Workstation / Player    | Hypervisor providing Host Emulation  | N/A 
+| Windows 10/11  | Host Systems        |  2CPUs / 2-4GB Ram / 25-50GB HD|
+| Windows Server 2022    | Host & SQL Server Administration          | 2CPUs / 4GB Ram / 50-100GB HD |
+| SQL Server 2025  | Database Administration Software                      |
 | Wireshark  | Packet Capture and Analysis          |
 
 ---
