@@ -3,20 +3,19 @@
 ---
 ---
 
-# 🪟 Microsoft Active Directory & SQL Lab Setup
+# 🪟 Microsoft Active Directory Lab
 
-This project demonstrates how to build a scaled enterprise-like systems & database administration lab built using opensource resource offerings from Microsoft. It's designed to emulate a small business in order to practice and gain incite on how these systems operate both independently & in conjunction with one another - bridging the knowledge base gap.  It contains Windows Host(s), Windows Server, Microsoft SQL Server, and the administration of all components.  With a labtop of 16GB  (recommended) of ram, this lab setup should allow for training from anywhere in the world.  8GB of ram should allow most components to run, if not concurrently, but still offer the ability to learn successfully.
+This project demonstrates how to build a scaled enterprise-like Windows based System Administration lab built using opensource resource offerings from Microsoft. It's designed to emulate a small business in order to practice and gain incite on how these systems operate both independently & in conjunction with one another - bridging the knowledge base gap.  It contains Windows Servers, Windows Hosts, with an aim later on to incorporate Microsoft SQL Server, and the administration of all components.  With a labtop of 16GB  (recommended) of ram, this lab setup should allow for training from anywhere in the world.  8GB of ram should allow most components to run, if not concurrently, but still offer the ability to learn successfully.
 
 ---
 
 ## 📌 Goals
-To illustrate a cost effective platform to allow for the practice and self study in both Systems & Database Administration using prodominately Industry Standard tech, providing the ability to gain skills in:
+To illustrate a cost effective platform to allow for the practice and self study in both System Administration using prodominately Industry Standard tech, providing the ability to gain skills in:
 
 - Virtualization & Hypervisor Management
 - Operating System Deployment (Windows 10/11 + Server)
 - Active Directory Domain Services (AD DS)
 - Windows Networking Fundamentals
-- SQL Server Installation and Administration
 - Systems Management & Automation
 - **Can even be expanded to allow for cyber security training via addition of Penetration Testing VM (Kali) and Logging triage**
 
@@ -28,7 +27,7 @@ To illustrate a cost effective platform to allow for the practice and self study
 |------------|--------------------------------------|-------------------|
 | VMware Workstation / Player    | Hypervisor providing Host Emulation  | N/A 
 | Windows 10/11  | Host Systems        |  2CPUs / 2-4GB Ram / 25-50GB HD|
-| Windows Server 2022    | Host & SQL Server Administration          | 2CPUs / 4GB Ram / 50-100GB HD |
+| Windows Server 2022    | Host & SQL Server Administration (later)       | 2CPUs / 4GB Ram / 50-100GB HD |
 | SQL Server 2025  | Database Administration Software                      |
 | Wireshark  | Packet Capture and Analysis          |
 
@@ -42,7 +41,7 @@ To illustrate a cost effective platform to allow for the practice and self study
 
 ### Prerequisites
 
-This guide will illustrate how to setup the environment both on Windows & Linux. 
+A Windows or Linux host system with VMware Workstation installed.
 
 <details>
  <summary><h4>a) System Requirements</h4></summary>
